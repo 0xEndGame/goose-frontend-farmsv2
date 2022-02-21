@@ -36,7 +36,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    risk: 3,
+    risk: 5,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',
