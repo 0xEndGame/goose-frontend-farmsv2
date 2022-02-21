@@ -42,8 +42,8 @@ const StyledCardAccent = styled.div`
   rgba(186, 12, 248, 1) 80%,
   rgba(251, 7, 217, 1) 90%,
   rgba(255, 0, 0, 1) 100%);
-  background-size: 500% 5s00%;
-  animation: ${RainbowLight} 3s linear infinite;
+  background-size: 300% 300%;
+  animation: ${RainbowLight} 2s linear infinite;
   border-radius: 16px;
   filter: blur(6px);
   position: absolute;
@@ -67,9 +67,10 @@ const FCard = styled.div`
   rgba(186, 12, 248, 1) 80%,
   rgba(251, 7, 217, 1) 90%,
   rgba(255, 0, 0, 1) 100%);
-  background-size: 500% 5s00%;
+  background-size: 300% 300%;
   animation: ${RainbowLight} 3s linear infinite;
   border-radius: 32px;
+  filter: blur(6px);
   box-shadow: 0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05);
   display: flex;
   flex-direction: column;
