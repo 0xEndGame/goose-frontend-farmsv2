@@ -70,7 +70,6 @@ const FCard = styled.div`
   background-size: 300% 300%;
   animation: ${RainbowLight} 3s linear infinite;
   border-radius: 32px;
-  filter: blur(6px);
   box-shadow: 0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05);
   display: flex;
   flex-direction: column;
