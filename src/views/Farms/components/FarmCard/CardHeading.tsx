@@ -10,7 +10,6 @@ export interface ExpandableSectionProps {
   depositFee?: number
   farmImage?: string
   tokenSymbol?: string
-  harvestLockup?: string
 }
 
 const Wrapper = styled(Flex)`
@@ -30,7 +29,6 @@ const CardHeading: React.FC<ExpandableSectionProps> = ({
   farmImage,
   tokenSymbol,
   depositFee,
-  harvestLockup,
 }) => {
   return (
     <Wrapper justifyContent="space-between" alignItems="center" mb="12px">
@@ -41,7 +39,6 @@ const CardHeading: React.FC<ExpandableSectionProps> = ({
           {depositFee === 0 ? <NoFeeTag /> : null}
           {/* {isCommunityFarm ? <CommunityTag /> : <CoreTag />} */}
           {/* <RiskTag risk={risk} /> */}
-          {harvestLockup == "7 Days"}
           <MultiplierTag variant="secondary">{multiplier}</MultiplierTag>
         </Flex>
       </Flex>
